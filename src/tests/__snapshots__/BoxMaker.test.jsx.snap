@@ -1,0 +1,53 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Box Maker
+    </h1>
+    <form>
+      <label
+        for="width"
+      >
+        Width
+      </label>
+      <input
+        id="width"
+        max="7"
+        min="3"
+        name="width"
+        type="range"
+        value="3"
+      />
+      <label
+        for="height"
+      >
+        Height
+      </label>
+      <input
+        id="height"
+        max="7"
+        min="3"
+        name="height"
+        type="range"
+        value="3"
+      />
+      <label
+        for="color"
+      >
+        Color
+      </label>
+      <input
+        id="color"
+        name="color"
+        type="color"
+        value="#e66465"
+      />
+      <button>
+        create
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

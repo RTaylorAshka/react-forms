@@ -1,0 +1,9 @@
+.box {
+    margin: 5px;
+}
+
+.boxContainer {
+    width: fit-content;
+    height: fit-content;
+    float: left;
+}
